@@ -1,0 +1,17 @@
+.city-table-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .table-container {
+    flex: 1;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .city-table-container {
+      padding: 10px; /* Adjust spacing for smaller screens */
+    }
+  }
+  
