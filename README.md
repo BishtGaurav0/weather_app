@@ -8,8 +8,6 @@ A simple and elegant **Weather Application** built using **React.js** that allow
 
 ## 🌐 Deployed App
 - **Frontend:** [https://vigorous-poitras-17d796.netlify.app/](https://vigorous-poitras-17d796.netlify.app/)
-- **Backend:** _Not applicable_
-- **Database:** _Not applicable_
 
 ## 📁 Directory Structure
 
