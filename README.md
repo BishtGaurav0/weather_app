@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# 🌦️ Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Introduction
+A simple and elegant **Weather Application** built using **React.js** that allows users to check real-time weather conditions for any city around the world. The app fetches data from an external weather API and presents it in a clean, user-friendly interface.
 
-## Available Scripts
+## 🛠️ Project Type
+**Frontend**
 
-In the project directory, you can run:
+## 🌐 Deployed App
+- **Frontend:** [https://vigorous-poitras-17d796.netlify.app/](https://vigorous-poitras-17d796.netlify.app/)
+- **Backend:** _Not applicable_
+- **Database:** _Not applicable_
 
-### `npm start`
+## 📁 Directory Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+weather-app/ ├── public/ │ └── index.html │ ├── src/ │ ├── components/ │ │ ├── WeatherCard.js │ │ └── SearchBar.js │ ├── App.js │ ├── index.js │ └── App.css │ ├── .gitignore ├── package.json ├── README.md └── package-lock.json /
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📹 Video Walkthrough of the Project
+📽️ Coming soon!
 
-### `npm run build`
+## 💻 Video Walkthrough of the Codebase
+📽️ Coming soon!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 🌍 Search weather by city and country name
+- 🌡️ Display current temperature, humidity, wind speed, and conditions
+- 🎨 Simple and responsive UI
+- ☁️ Uses live weather data from an external API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📐 Design Decisions or Assumptions
 
-### `npm run eject`
+- Chose OpenWeatherMap API for simplicity and wide adoption
+- App handles invalid city inputs with basic error messages
+- Built using React functional components and hooks
+- Designed with mobile responsiveness in mind
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## ⚙️ Installation & Getting Started
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the project locally:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
+npm install
+npm start
