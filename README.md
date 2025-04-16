@@ -16,10 +16,7 @@ weather-app/ ├── public/ │ └── index.html │ ├── src/ │ �
 
 
 ## 📹 Video Walkthrough of the Project
-📽️ Coming soon!
-
-## 💻 Video Walkthrough of the Codebase
-📽️ Coming soon!
+![Image](https://github.com/user-attachments/assets/eea68223-9d84-4347-8c5e-6feb3540d833)
 
 ## ✨ Features
 
